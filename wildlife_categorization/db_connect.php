@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $user = 'root';
-$password = ''; // Use your real password if not empty
+$password = 'kelma'; // MySQL Server password
 $database = 'wildlife_categorization';
 
 $conn = new mysqli($host, $user, $password, $database);

@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "kelma";
 $dbname = "wildlife_categorization";
 
 // Create connection
