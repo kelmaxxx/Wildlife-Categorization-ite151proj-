@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-$conn = new mysqli("localhost", "root", "", "wildlife_categorization");
+$conn = new mysqli("localhost", "root", "", "wildlife_categorization", 3307);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }

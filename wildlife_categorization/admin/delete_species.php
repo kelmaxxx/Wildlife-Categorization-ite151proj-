@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-$conn = new mysqli("localhost", "root", "", "wildlife_categorization");
+$conn = new mysqli("localhost", "root", "", "wildlife_categorization", 3307);
 
 $id = (int)$_GET['id'];
 

@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-$conn = new mysqli("localhost", "root", "", "wildlife_categorization");
+$conn = new mysqli("localhost", "root", "", "wildlife_categorization", 3307);
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $name = $conn->real_escape_string($_POST['habitat_name']);
     $location = $conn->real_escape_string($_POST['habitat_location']);

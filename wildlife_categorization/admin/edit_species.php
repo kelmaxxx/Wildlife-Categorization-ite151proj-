@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-$conn = new mysqli("localhost", "root", "", "wildlife_categorization");
+$conn = new mysqli("localhost", "root", "", "wildlife_categorization", 3307);
 
 // Optionally suppress notices (only do this in production)
 error_reporting(E_ALL & ~E_NOTICE);

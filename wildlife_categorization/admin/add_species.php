@@ -1,6 +1,6 @@
 <?php
 include 'auth.php';
-$conn = new mysqli("localhost", "root", "", "wildlife_categorization");
+$conn = new mysqli("localhost", "root", "", "wildlife_categorization", 3307);
 
 $categories = $conn->query("SELECT category_id, category_name FROM category");
 $habitats = $conn->query("SELECT habitat_id, habitat_name FROM habitat");
